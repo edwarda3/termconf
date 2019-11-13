@@ -1,0 +1,10 @@
+fpath=(~/.zsh/completion $fpath)
+autoload -Uz compinit
+compinit -i
+zstyle ':completion:*' menu select=2
+
+export CPATH=$HOME/Documents/app_sym_grouping/scripts/path
+
+export PATH=$HOME/bin:$HOME/.toolbox/bin:$PATH
+export PATH=$PATH:/Library/Frameworks/Python.framework/Versions/3.7/bin
+export PATH=$PATH:$CPATH

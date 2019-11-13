@@ -1,0 +1,33 @@
+# ls commands
+alias ll='ls -alFGh'
+alias la='ls -A'
+alias l='ls -CF'
+
+#cd commands
+alias ..='cd ..'
+
+alias quit='exit'
+alias c='clear'
+alias cs='clear;ls -alF'
+
+#CloudDesktop For a frequently used ssh server
+#alias cld='ssh clouddesk'
+
+#other
+alias p3='python3'
+alias caf='caffeinate'
+alias cafd='caffeinate -d'
+alias cafs='caffeinate -s'
+alias got='git'
+
+#tabsetting
+alias ts='tabset'
+alias tst='ts --title'
+alias tsnds='tabset --title "Ninja Dev Sync" --color FireBrick --badge "Dev Sync"'
+alias tswksp='tabset --title "Primary WS" --color Lavender --badge ""'
+alias tsssh='tabset --title "SSH" --color "LemonChiffon" --badge "SSH"'
+
+#workflows
+alias nds='tsnds && ninja-dev-sync'
+alias lws='tswksp && cd $HOME/workplace'
+alias rws='tsssh && cld'
