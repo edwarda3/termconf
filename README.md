@@ -7,6 +7,7 @@ This repository acts as a screenshot of my terminal configuration.
 
 ## Client
 [iTerm2](https://iterm2.com/)
+
 Profile is a slightly modified version of the default, with some application-specific modifications (such as triggers). Found in `iterm/Airy.json`.
 
 ## Shell
@@ -20,12 +21,14 @@ _Instruction from the github pages_
 
 ## Aliases
 Some aliases are bound to set tabs title and colors on iTerm. To use, the program `tabset` must be installed. It requires Node, and can be found on [npm::iterm2-tab-set](https://www.npmjs.com/package/iterm2-tab-set).
+
 ```
 npm i -g iterm2-tab-set
 ```
 
 ## Vim
 Found in `rc/vimrc`
-Notes:
+
+Some notes:
 * Spaces (4)
 * Line numbers enabled
